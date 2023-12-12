@@ -1,0 +1,425 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.navigation-menu{
+    background-color: #161A30;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    box-shadow: 1px 1px 10px 1px #B6BBC4;
+    z-index: 1;/*To make div containers scroll under nav-bar add z-index and make sure it's value is higher than other divs*/
+}
+
+.fa fa-car{
+    cursor: pointer;
+    color: #fff;
+}
+
+.fa fa-car:hover{
+    transform: rotate(45deg);
+}
+
+.logo{
+    color: #fff;
+    font-family: Kanit;
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: Poppins;
+}
+
+
+li{
+    list-style: none;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin-right: 240px; */
+    margin-top: -34px;
+}
+
+.sign-up-btn{
+    background-color: #EE7214;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-style: none;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 600;
+    float: right;
+    border-radius: 10px;
+    margin-top: -34px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.section-2-cont{
+    width: 100%;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+#home-img{
+    object-fit: cover;
+    object-position: 50% 50%;
+    width: 100%;
+    height: 400px;
+}
+
+.section-3-cont{
+    background-color: #31304D;
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 30px 12px;
+}
+
+.about-message{
+    margin-left: 50px;
+    font-size: 30px;
+    position: absolute;
+    top: 450px;
+    font-family: Roboto;
+    color: white;
+    font-weight: 500;
+    text-decoration: underline;
+    line-height: 5px;
+    /* border-bottom: 2px solid #fff;
+    border-width: 4px;
+    border-radius: 2px; */
+}
+
+.description-message{
+    margin-left: 60px;
+    margin-right: 580px;
+    line-height: 26px;
+    font-size: 18px;
+    position: absolute;
+    top: 500px;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 0.8;
+}
+
+.section-4-cont{
+    background-color: #B6BBC4;
+    width: 100%;
+    height: 590px;
+}
+
+.why-choose-para{
+    margin-left: 550px;
+    font-size: 30px;
+    position: absolute;
+    top: 740px;
+    font-family: Roboto;
+    color: white;
+    font-weight: 500;
+    text-decoration: underline;
+    line-height: 5px;
+}
+
+.why-choose-para-description{
+    margin-left: 320px;
+    margin-right: 320px;
+    line-height: 29px;
+    font-size: 18px;
+    position: absolute;
+    top: 780px;
+    color: #fff;
+    font-family: Poppins;
+    opacity: 0.8;
+}
+
+.testmonials-word{
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 30px;
+    position: absolute;
+    top: 930px;
+    margin-left: 615px;
+}
+
+.testmonials-cont{
+    background-color: #161A30;
+    width: 80%;
+    height: 260px;
+    margin-left: 150px;
+    position: absolute;
+    top: 1000px;
+    border-top-right-radius: 25px 50px;
+    border-bottom-left-radius: 25px 50px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.testmonial-1{
+    /* background-color: #31304D; */
+    width: 320px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#s7{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.stella-becky{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Poppins;
+    margin-left: 15px;
+}
+
+.description-s7{
+    margin-left: 15px;
+}
+
+.rates{
+    color: #EE7214;
+    margin-top: 12px;
+    margin-left: 24px;
+}
+
+.words-stella-becky{
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.8;
+    font-family: Poppins;
+
+}
+
+.testmonials-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-5-cont{
+    background-color: #161A30;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.products-title{
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #fff;
+    position: absolute;
+    top: 1330px;
+    margin-left: 5px;
+}
+
+.product-1{
+    margin-left: 40px;
+}
+
+#mercedes{
+    margin-top: 110px;
+    border-radius: 20px;
+}
+
+.mercedes-car-title{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 120px;
+    margin-top: 5px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.product-description-cont{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 10px; 
+}
+
+.describe-a-product{
+    margin-left: 25px;
+    font-size: 18px;
+    color: #EE7214;
+}
+
+.footer-section{
+    background-color: #161A30;
+    opacity: 0.7;
+    height: 285px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.others-in-footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.developer-info{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
+    font-family: Poppins;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#caleb{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-left: 8px;
+}
+
+.logo-footer{
+    font-weight: 600;
+    font-family: Roboto;
+    color: #EE7214;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.about-dev-para{
+    font-family: Poppins;
+    color: #EE7214;
+    opacity: 0.8;
+    margin-left: 25px;
+}
+
+.links-title{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: #EE7214;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+.list-2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    line-height: 26px;
+    margin-left: 65px;
+    color: #fff;
+}
+
+.others-word{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: #EE7214;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+.contact-word{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: #EE7214;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+
+.others-para{
+    color: #fff;
+}
+
+.item-footer-item-1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+form{
+    margin-left: 23px;
+    line-height: 25px;
+}
+
+#email{
+    padding-left: 37px;
+    padding-right: 37px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+
+#send{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    background-color: #EE7214;
+    border-style: none;
+    margin-left: 75px;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#send:hover{
+    /* opacity: 0.8; */
+    background-color: #711DB0;
+    color: #fff;
+    cursor: pointer;
+}
+
+textarea{
+    width: 240px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+.copyright-part{
+    background-color: #B6BBC4;
+    width: 100%;
+    height: 100%;
+}
+
+.copyright-text{
+    color: #711DB0;
+    font-family: Poppins;
+    text-align: center;
+}
