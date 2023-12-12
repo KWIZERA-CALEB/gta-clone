@@ -282,13 +282,16 @@ ul{
     height: 285px;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
+    gap: 320px;
+    
 }
 
 .others-in-footer{
     display: flex;
     flex-direction: row;
+    margin-left: 400px;
 }
 
 .developer-info{
@@ -310,6 +313,8 @@ ul{
     object-fit: cover;
     object-position: 50% 50%;
     margin-left: 8px;
+    border: inset blue;
+    margin-right: 20px;
 }
 
 .logo-footer{
@@ -340,9 +345,11 @@ ul{
     display: flex;
     flex-direction: column;
     margin-top: 15px;
-    line-height: 26px;
+    line-height: 22px;
     margin-left: 65px;
     color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
 }
 
 .others-word{
@@ -365,11 +372,19 @@ ul{
 
 .others-para{
     color: #fff;
+    font-family: Poppins;
+    line-height: 35px;
+    margin-left: 70px;
+    transition: color 0.15s;
 }
 
-.item-footer-item-1{
-    margin-top: 20px;
-    margin-left: 20px;
+.others-para, a:hover{
+    color: blue;
+}
+
+
+.fa fa-car{
+    color: #fff;
 }
 
 form{
@@ -385,6 +400,11 @@ form{
     border-radius: 8px;
 }
 
+#email::placeholder{
+    margin-left: 10px;
+    outline: none;
+}
+
 #send{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -397,7 +417,9 @@ form{
     color: #fff;
     font-weight: 900;
     cursor: pointer;
+    outline: 0;
 }
+
 
 #send:hover{
     /* opacity: 0.8; */
@@ -410,6 +432,31 @@ textarea{
     width: 240px;
     height: 120px;
     border-radius: 8px;
+    margin-top: 5pxgit;
+}
+
+textarea::placeholder{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+    outline: none;
+}
+
+
+.item-footer-item-1{
+    margin-left: -480px;
+}
+
+.item-footer-item-2{
+    margin-left: 130px;
+}
+
+.item-footer-item-3{
+    margin-left: 130px;
+}
+
+.item-footer-item-4{
+    margin-left: 130px;
 }
 
 .copyright-part{
@@ -418,8 +465,21 @@ textarea{
     height: 100%;
 }
 
+#email-label{
+    color: #fff;
+    font-weight: 500;
+    font-family: Poppins;
+}
+
+.logo-footer-down{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
 .copyright-text{
-    color: #711DB0;
+    color: blue;
     font-family: Poppins;
     text-align: center;
+    font-weight: 600;
 }
